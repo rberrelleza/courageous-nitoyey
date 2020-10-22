@@ -1,0 +1,7 @@
+.gitignore
+.stignore
+Dockerfile
+okteto.yml
+okteto-stack.yml
+README.md
+.vscode

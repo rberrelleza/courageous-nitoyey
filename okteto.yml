@@ -1,0 +1,10 @@
+name: courageous-nitoyey
+command: bash
+sync:
+- .:/usr/src/app
+remote: 22000
+forward:
+- 5000:5000
+- 5001:5001
+- 5002:5002
+- 9229:9229

@@ -1,0 +1,9 @@
+services:
+  courageous-nitoyey:
+    public: true
+    build: .
+    image: okteto.dev/courageous-nitoyey
+    ports:
+    - 5000
+    - 5001
+    - 5002
