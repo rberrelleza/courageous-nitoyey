@@ -15,7 +15,9 @@
         "dapp:prod": "lerna run build:prod",
         "server": "lerna run dev --scope=@decentology/dappstarter-server --stream",
         "test": "lerna run test $npm_config_script --scope=@decentology/dappstarter-dapplib --stream",
-        "dev": "npm start"
+        "dev": "npm start",
+        "lerna:build": "lerna run build && lerna run build:css",
+        "lerna:install": "lerna run install"
     },
     "devDependencies": {
         "chalk": "^4.0.0",
